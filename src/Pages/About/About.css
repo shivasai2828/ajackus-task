@@ -1,0 +1,24 @@
+/* About.css */
+.about-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin-left: 250px;
+  padding: 20px;
+  min-height: 80vh;
+}
+
+.about-page h1,
+.about-page h2 {
+  color: #0056b3;
+}
+
+.about-page p {
+  line-height: 1.6;
+}
+@media screen and (max-width: 799px) {
+  .about-page {
+    margin: 10px;
+    padding: 20px;
+  }
+}

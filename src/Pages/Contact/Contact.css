@@ -1,0 +1,47 @@
+/* Contact.css */
+.contact-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-left: 250px;
+  padding: 20px;
+  min-height: 80vh;
+}
+@media screen and (max-width: 799px) {
+  .contact-page {
+    margin: 10px;
+  }
+}
+
+.contact-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-page label {
+  font-weight: bold;
+}
+
+.contact-page input,
+.contact-page textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-page button {
+  padding: 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-page .contact-info {
+  margin-top: 20px;
+}
+
+.contact-page .contact-info p {
+  line-height: 1.6;
+}
